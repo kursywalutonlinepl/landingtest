@@ -31,7 +31,7 @@ const Pricing = () => {
                 </div>
                 <textarea
                   
-                  className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg"
+                  className="py-3 lg:py-4 px-12 lg:px-16 text-black-500 font-semibold rounded-lg border-2 border-neutral-200"
                   
                   placeholder="Email address"
                   rows={1}
