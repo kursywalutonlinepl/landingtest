@@ -84,7 +84,17 @@ const Header = () => {
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             
-            <ButtonOutline>Sign Up</ButtonOutline>
+            <ButtonOutline>
+              <LinkScroll
+                activeClass="active"
+                to="pricing"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
+                Sign Up
+              </LinkScroll>
+            </ButtonOutline>
           </div>
         </nav>
       </header>
