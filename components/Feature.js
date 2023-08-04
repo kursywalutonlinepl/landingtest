@@ -24,7 +24,7 @@ const Feature = () => {
             <Image
               src="/assets/Illustration3.png"
               alt="VPN Illustrasi"
-              layout="responsive"
+              layout="fill"
               quality={100}
               height={400}
               width={400}
