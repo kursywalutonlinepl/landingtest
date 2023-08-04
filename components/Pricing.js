@@ -25,18 +25,11 @@ const Pricing = () => {
               <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
                 <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
                   <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
-                    Subscribe Now for <br /> Get Special Features!
+                    Join the waitlist
                   </h5>
-                  <p>Let's subscribe with us and find the fun.</p>
+                  <p>We will notify you about the launch.</p>
                 </div>
-                <textarea
-                  
-                  className="min-h-[44px] rounded-lg pl-4 pr-12 py-2 w-full focus:outline-none focus:ring-1 focus:ring-neutral-300 border-2 border-neutral-200"
-                  style={{ resize: "none" }}
-                  placeholder="Type or dictate a message..."
-                  rows={1}
-                  
-                />
+               
                 <ButtonPrimary>Get Started</ButtonPrimary>
               </div>
               <div
