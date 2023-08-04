@@ -29,6 +29,14 @@ const Pricing = () => {
                   </h5>
                   <p>Let's subscribe with us and find the fun.</p>
                 </div>
+                <textarea
+                  
+                  className="min-h-[44px] rounded-lg pl-4 pr-12 py-2 w-full focus:outline-none focus:ring-1 focus:ring-neutral-300 border-2 border-neutral-200"
+                  style={{ resize: "none" }}
+                  placeholder="Type or dictate a message..."
+                  rows={1}
+                  
+                />
                 <ButtonPrimary>Get Started</ButtonPrimary>
               </div>
               <div
