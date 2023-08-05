@@ -96,7 +96,7 @@ const Feature = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="/assets/Illustration3.png"
+              src="/assets/Illustration6.png"
               alt="VPN Illustrasi"
               layout="responsive"
               quality={100}
